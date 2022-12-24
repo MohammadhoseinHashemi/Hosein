@@ -1,0 +1,139 @@
+@import url("https://v1.fontapi.ir/css/Sahel");
+* {
+  list-style-type: none !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:hover {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+.background-body {
+  background-image: url("img/1094649.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.a-menu {
+  background-color: white;
+}
+nav.navbar {
+  background-color: #e9eef0;
+}
+li.nav-item {
+  overflow: hidden;
+}
+a.nav-link {
+  position: relative !important;
+}
+a.nav-link::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  content: "";
+  opacity: 0;
+  background: #ffffff;
+  transition: all 0.4s ease;
+  transform: translateX(100px);
+}
+a.nav-link:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+a.nav-link.active {
+  background-color: transparent !important;
+}
+
+a.nav-link.active::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  content: "";
+  opacity: 1;
+  background: #ffffff;
+  transition: all 0.4s ease;
+  transform: translateX(0);
+}
+.img-factory {
+  width: 590px;
+  height: 530px;
+  box-shadow: 13px 10px 20px 0px #a29c9c;
+}
+.sanaye-fom {
+  height: 500px;
+  background-image: url(img/Sahand\ copy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.color-menu {
+  height: 900px;
+  background-image: url(img/Sahand\ copy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.about-yonolit {
+  color: #ffffff;
+}
+.grid-con {
+  display: grid;
+  gap: 0px 300px;
+}
+.color-white {
+  color: #ffffff;
+}
+.icon_factory {
+  width: 40px;
+  height: 40px;
+}
+.factory-intro {
+  font-size: 20px;
+}
+.color_gallery {
+  background-image:#353535;
+}
+.with_gallery {
+  width: 1080px !important;
+  height: 900px !important;
+}
+.about-web {
+  margin-top: 152px;
+}
+.Text-galley {
+  margin-top: 100px !important;
+  color: #ffffff;
+}
+.alert-red {
+  margin-top: 100px;
+}
+.background-card {
+  background: none;
+}
+.Specifications {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 70px;
+}
+.shadow-card {
+  box-shadow: 13px 6px 20px 0px  #a29c9c;
+}
+
+@media screen and (max-width:720px){
+  .color-menu{
+    background-size: contain;
+  
+  } 
+}
